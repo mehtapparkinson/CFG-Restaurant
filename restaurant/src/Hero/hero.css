@@ -1,0 +1,27 @@
+.hero-section {
+    height: 100vh;
+    background-image: url('./11.png');
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F5F5EF;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+}
