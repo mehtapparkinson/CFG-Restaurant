@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5EF;
+}
+
+.footer-logos img{
+    height: 30px;
+    padding: 3px 10px;
+    margin: 5px;
+   
+}
