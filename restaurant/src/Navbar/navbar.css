@@ -3,6 +3,10 @@ nav {
     background-color: #303030;
     color: #F5F5EF;
     max-height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     align-items: center;
   }
 
