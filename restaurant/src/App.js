@@ -1,7 +1,8 @@
-import './App.css';
-import Footer from './Footer/Footer';
-import Hero from './Hero/Hero';
-import Navbar from './Navbar/Navbar';
+import "./App.css";
+import Footer from "./Footer/Footer";
+import Hero from "./Hero/Hero";
+import Navbar from "./Navbar/Navbar";
+import Menu from "./Menu/menu";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Footer></Footer>
-     
+      <Menu></Menu>
     </div>
   );
 }

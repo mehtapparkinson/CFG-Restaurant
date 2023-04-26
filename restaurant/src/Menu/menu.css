@@ -1,0 +1,25 @@
+div {
+  background-color: #f5f5ef;
+}
+
+.photo1 {
+  margin-top: 140 px;
+  margin-left: 80px;
+  height: 385px;
+  width: 360px;
+}
+
+.photo2 {
+  margin-bottom: 140px;
+  margin-left: 55px;
+  height: 385px;
+  width: 360px;
+}
+
+button {
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  margin-bottom: 140px;
+}
