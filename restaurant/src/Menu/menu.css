@@ -3,23 +3,25 @@ div {
 }
 
 .photo1 {
-  margin-top: 140 px;
+  margin: 170px 53px 399px 120px;
   margin-left: 80px;
-  height: 385px;
-  width: 360px;
+  height: 511px;
 }
 
 .photo2 {
-  margin-bottom: 140px;
-  margin-left: 55px;
-  height: 385px;
-  width: 360px;
+  margin: 399px 117px 120px 0;
+  height: 511px;
+  width: 380px;
+}
+
+.text {
+  margin: 265px 140px 80px 0;
 }
 
 button {
   padding: 10px 30px 10px 30px;
   font-size: 20px;
+  margin: 40px;
   color: white;
   background-color: black;
-  margin-bottom: 140px;
 }

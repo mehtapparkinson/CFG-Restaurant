@@ -6,8 +6,8 @@ const Menu = () => {
     <div>
       <img src="pizza.jpg" className="photo1" />
       <img src="spaghetti.jpg" className="photo2" />
-      <h2>LOREM IPSUM</h2>
-      <p>
+      <h2 className="text">LOREM IPSUM</h2>
+      <p className="text">
         Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices
         leo tellus, vel condimentum felis efficitur eget.
       </p>
