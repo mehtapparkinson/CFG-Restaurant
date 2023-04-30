@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul>
         <li className="nav-left">
             <img src={logo} alt="Logo" className="logo"/>
-            <a className="logotext">Dolce Bistro</a>
+            <a className="logo-text">Dolce Bistro</a>
         </li>
         <li>
           <a href="#">Home</a>
