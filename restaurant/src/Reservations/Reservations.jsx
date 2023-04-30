@@ -48,8 +48,8 @@ function Reservations() {
 
 
   return (
-    <div className="form">
-    <form onSubmit={handleSubmit}>
+    <div className="form-container">
+    <form className="form" onSubmit={handleSubmit}>
       <h2>RESERVATIONS</h2>
       <div className="row">
         <label htmlFor="name">Name:</label>
