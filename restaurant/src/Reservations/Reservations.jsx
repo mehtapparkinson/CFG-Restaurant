@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './reservations.css'
+import "./reservations.css";
 
 function Reservations() {
   const [name, setName] = useState("");
@@ -12,11 +12,40 @@ function Reservations() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    
+    // Check if name is empty
+    if (!name) {
+      alert("Please enter your name");
+      return;
+    }
+    //check email exists and includes @
+    if (!email || !email.includes("@")) {
+      alert("Please enter a valid email address");
+      return;
+    }
+    // Check if tel is empty
+    if (!tel) {
+      alert("Please enter your telephone number");
+      return;
+    }
+    // Check if reservation date is in the future
+    const today = new Date();
+    const reservationDateObj = new Date(reservationDate);
 
+    if (reservationDateObj < today) {
+      alert("Please select a future date");
+      return;
+    }
+    // Check if party size is between 1 and 10
+    if (partySize < 1 || partySize > 10) {
+      alert("Please enter a party size between 1 and 10");
+      return;
+    }
 
-
+    // All input data is valid, continue with submitting the form with MailTo action
+    const mailtoLink = `mailto:dolce@bistro.com?subject=Reservation Request&body=Name: ${name}%0D%0AEmail: ${email}%0D%0ATelephone: ${tel}%0D%0AReservation Date: ${reservationDate}%0D%0AReservation Time: ${reservationTime}%0D%0AParty Size: ${partySize}%0D%0ANotes: ${notes}`;
+    window.location.href = mailtoLink;
   };
+
 
   return (
     <div className="form">
@@ -80,7 +109,7 @@ function Reservations() {
           onChange={(e) => setNotes(e.target.value)}
         />
       </div>
-      <button type="submit">Send</button>
+      <button type="submit" onClick={handleSubmit}>Send</button>
     </form>
     </div>
   );
