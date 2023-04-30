@@ -3,7 +3,7 @@ import "./menu.css";
 
 const Menu = () => {
   return (
-    <div>
+    <div className=".menu-container ">
       <img src="pizza.jpg" className="photo1" />
       <img src="spaghetti.jpg" className="photo2" />
       <h2 className="text">LOREM IPSUM</h2>

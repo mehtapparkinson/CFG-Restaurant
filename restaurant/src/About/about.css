@@ -1,5 +1,22 @@
-div {
+.about-container {
   background-color: #f5f5ef;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100vh;
+
+
+}
+
+.text-photo-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 90%;
+  text-align: start;
+  margin: auto;
+  font-size: larger;
+
 }
 
 h1 {
@@ -12,27 +29,15 @@ h5 {
   text-align: center;
 }
 
-img {
-  height: 511px;
-  width: 380px;
+.dishes {
+  width: 60%;
+  padding: 50px;
 }
 
 .title {
-  margin: 280px 1420px 284px 120px;
+ margin: 20px;
 }
 
 .text {
-  margin: 280px 54px 284px 120px;
-}
-
-.photo1 {
-  margin: 280px 53px 284px 0;
-}
-
-.photo2 {
-  margin: 280px 0 284px 0;
-}
-
-.photo3 {
-  margin: 280px 120px 284px 0;
+ margin: 20px;
 }
