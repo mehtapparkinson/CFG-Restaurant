@@ -1,27 +1,33 @@
-div {
+.menu-container {
   background-color: #f5f5ef;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
 }
 
-.photo1 {
-  margin: 170px 53px 399px 120px;
-  margin-left: 80px;
-  height: 511px;
+.text-container{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  max-width: 40%;
 }
 
-.photo2 {
-  margin: 399px 117px 120px 0;
-  height: 511px;
-  width: 380px;
+.menu-dishes {
+  width: 40%;
+  padding: 40px;
+}
+
+.text-container button {
+  background-color: black;
+  color: white;
+  width: 250px;
 }
 
 .text {
-  margin: 265px 140px 80px 0;
+margin: 20px;
 }
 
-button {
-  padding: 10px 30px 10px 30px;
-  font-size: 20px;
-  margin: 40px;
-  color: white;
-  background-color: black;
-}
+
