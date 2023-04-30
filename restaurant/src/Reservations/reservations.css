@@ -1,16 +1,15 @@
-form {
+.form-container {
     height: 100vh;
     margin: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #F5F5EF;
+    color: #4e4e4e;
     background-color: #4e4e4e;
-    
-  
 
 }
+
 
 input  {
     display: flex;
@@ -37,7 +36,7 @@ button {
 .row{
     display: flex;
     flex-direction: column;
-   padding: 10px;
+    padding: 10px;
 }
 
 h2{
