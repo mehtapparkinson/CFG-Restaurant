@@ -4,11 +4,9 @@
   flex-direction: column;
   margin: auto;
   height: 100vh;
-
-
 }
 
-.text-photo-container{
+.text-photo-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,7 +14,6 @@
   text-align: start;
   margin: auto;
   font-size: larger;
-
 }
 
 h1 {
@@ -35,9 +32,9 @@ h5 {
 }
 
 .title {
- margin: 20px;
+  margin: 20px;
 }
 
 .text {
- margin: 20px;
+  margin: 20px;
 }

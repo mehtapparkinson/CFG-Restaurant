@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.text-container{
+.text-container {
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -27,7 +27,9 @@
 }
 
 .text {
-margin: 20px;
+  margin: 20px;
 }
 
-
+button {
+  cursor: pointer;
+}
