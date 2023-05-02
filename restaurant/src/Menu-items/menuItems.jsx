@@ -4,7 +4,7 @@ import "./menuItems.css";
 
 function menuItems() {
   return (
-    <div className="menu-items">
+    <div className="menu-items" id="menu">
       {italianDishes.map((dish) => (
         <div key={dish.id} className="menu-item">
           <img src={dish.image} alt={dish.name} className="menu-item-img" />

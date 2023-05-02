@@ -27,7 +27,7 @@ const italianDishes = [
       id: 4,
       name: "Pepperoni Pizza",
       description: "A pizza topped with tomato sauce, mozzarella cheese, and spicy pepperoni slices.",
-      image: "https://sipbitego.com/wp-content/uploads/2021/08/Pepperoni-Pizza-Recipe-Sip-Bite-Go.jpg",
+      image: "https://images.unsplash.com/photo-1605478371310-a9f1e96b4ff4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       type: "pizza",
       price: "13"
     },
@@ -35,7 +35,7 @@ const italianDishes = [
       id: 5,
       name: "Mushroom Pizza",
       description: "A pizza topped with tomato sauce, mozzarella cheese, and sautéed mushrooms.",
-      image: "https://leitesculinaria.com/wp-content/uploads/2020/12/mushroom-pizza-ricotta.jpg",
+      image: "https://plus.unsplash.com/premium_photo-1663858367001-6319e4cec7c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       type: "pizza",
       price: "12"
     },
