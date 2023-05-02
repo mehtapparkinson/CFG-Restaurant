@@ -1,5 +1,6 @@
 import React from "react";
 import "./menu.css";
+import { Link } from "react-scroll";
 
 const Menu = () => {
   return (
@@ -11,7 +12,9 @@ const Menu = () => {
         Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices
         leo tellus, vel condimentum felis efficitur eget.
       </p>
-      <button>Book Now</button>
+      <button className="menu-button" >
+      <Link to="reservations" smooth={true} duration={500}>Book Now</Link>
+      </button>
       </div>
      
     </div>

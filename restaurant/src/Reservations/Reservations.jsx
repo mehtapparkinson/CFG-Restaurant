@@ -109,7 +109,7 @@ function Reservations() {
           onChange={(e) => setNotes(e.target.value)}
         />
       </div>
-      <button type="submit" onClick={handleSubmit}>Send</button>
+      <button className="reservations-button" type="submit" onClick={handleSubmit}>Send</button>
     </form>
     </div>
   );

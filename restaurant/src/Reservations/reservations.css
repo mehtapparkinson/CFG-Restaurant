@@ -47,6 +47,14 @@ button {
 }
 
 h2{
-    font-size: 30px;
+    font-size: 40px;
+    color: #0aae49;
 
+}
+
+.reservations-button {
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    background-color: #65ed99;
 }

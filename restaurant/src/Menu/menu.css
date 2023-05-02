@@ -1,6 +1,6 @@
 .menu-container {
   background-color: #f5f5ef;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: row;
   text-align: start;
@@ -30,4 +30,9 @@
 margin: 20px;
 }
 
-
+.menu-button{
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  margin: 40px;
+}
