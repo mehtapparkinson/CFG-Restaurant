@@ -1,60 +1,55 @@
 .form-container {
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #F5F5EF;
-    background-color: #4e4e4e;
-
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f5f5ef;
+  background-color: #4e4e4e;
 }
 
-
-input  {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 5px;
-    margin: auto;
-    width: 200px;
-
+input {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 5px;
+  margin: auto;
+  width: 200px;
 }
 textarea {
-    width: 200px;
-    margin: auto;
+  width: 200px;
+  margin: auto;
 }
 
 label {
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: left;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: left;
 }
 
 button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 30px;
-}
- 
-.row{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
 }
 
-h2{
-    font-size: 40px;
-    color: #0aae49;
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
 
+h2 {
+  font-size: 40px;
+  color: #0aae49;
 }
 
 .reservations-button {
-    border-radius: 20px;
-    padding: 10px 30px 10px 30px;
-    font-size: 20px;
-    background-color: #65ed99;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  background-color: #65ed99;
 }
