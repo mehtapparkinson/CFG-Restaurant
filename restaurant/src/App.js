@@ -6,6 +6,7 @@ import Reservations from './Reservations/Reservations';
 import Menu from "./Menu/menu";
 import About from "./About/about";
 import MenuItems from "./Menu-items/menuItems";
+import Reviews from "./Reviews/menuReviews"
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Hero></Hero>
       <Menu></Menu>
       <About></About>
+      <Reviews/>
       <MenuItems></MenuItems>
       <Reservations></Reservations>  
       <Footer></Footer>

@@ -49,6 +49,7 @@ nav {
     font-weight: bold;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
   }
   
   a:hover {
