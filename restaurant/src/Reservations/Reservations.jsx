@@ -41,14 +41,14 @@ function Reservations() {
       return;
     }
 
-    // All input data is valid, continue with submitting the form with MailTo action
+    // MailTo action
     const mailtoLink = `mailto:dolce@bistro.com?subject=Reservation Request&body=Name: ${name}%0D%0AEmail: ${email}%0D%0ATelephone: ${tel}%0D%0AReservation Date: ${reservationDate}%0D%0AReservation Time: ${reservationTime}%0D%0AParty Size: ${partySize}%0D%0ANotes: ${notes}`;
     window.location.href = mailtoLink;
   };
 
 
   return (
-    <div className="form-container">
+    <div className="form-container" id="reservations">
     <form className="form" onSubmit={handleSubmit}>
       <h2>RESERVATIONS</h2>
       <div className="row">

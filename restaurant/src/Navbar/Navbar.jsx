@@ -1,25 +1,30 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./navbar.css";
 import logo from './CFGlogo.svg'
+
 const Navbar = () => {
   return (
     <nav>
       <ul>
         <li className="nav-left">
             <img src={logo} alt="Logo" className="logo"/>
-            <a className="logo-text">Dolce Bistro</a>
+            <Link to="home" smooth={true} duration={500}>Dolce Bistro</Link>
         </li>
         <li>
-          <a href="#">Home</a>
+        <Link to="home" smooth={true} duration={500}>Home</Link>
         </li>
         <li>
-          <a href="#">Menu</a>
+        <Link to="about" smooth={true} duration={500}>About Us</Link>
         </li>
         <li>
-          <a href="#">Contact Us</a>
+        <Link to="menu" smooth={true} duration={500}>Menu</Link>
         </li>
         <li>
-          <a href="#">Reservations</a>
+        <Link to="contact" smooth={true} duration={500}>Contact Us</Link>
+        </li>
+        <li>
+        <Link to="reservations" smooth={true} duration={500}>Reservations</Link>
         </li>
       </ul>
     </nav>
