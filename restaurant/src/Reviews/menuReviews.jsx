@@ -4,7 +4,7 @@ import "./menuReviews.css";
 function Reviews() {
   return (
     <div className="review-container">
-      <h2 className="title">Reviews</h2>
+      <h2 className="rev-title">Reviews</h2>
       <div className="review-boxes">
         <div className="box1">
           <p className="text_a1">TRANSPORTED TO ROME</p>
