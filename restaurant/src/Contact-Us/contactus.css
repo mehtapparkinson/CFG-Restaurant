@@ -1,0 +1,21 @@
+.image-container {
+    background-color: #f5f5ef;
+    height: 100vh;
+    display: flex;
+    max-width: 50%;
+    text-align: start;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    max-width: 50%;
+  }
+  
+  .text {
+    margin: 20px;
+  }
+
