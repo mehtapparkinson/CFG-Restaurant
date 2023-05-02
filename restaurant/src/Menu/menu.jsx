@@ -7,11 +7,12 @@ const Menu = () => {
     <div className="menu-container" id="about">
       <img src="https://i.ibb.co/x6FyDBD/10.png" className="menu-dishes" />
       <div className="text-container">
-      <h2 className="text">LOREM IPSUM</h2>
-      <p className="text">
-        Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices
-        leo tellus, vel condimentum felis efficitur eget.
-      </p>
+      <h2 className="text">Variety of taste</h2>
+        <p className="text">
+          At Dolce Bistro we have brought authentic Italian cuisine all the way
+          from Italy. Our team offer a wide selection of flavours that is sure
+          to suit the taste buds.
+        </p>
       <button className="menu-button" >
       <Link to="reservations" smooth={true} duration={500}>Book Now</Link>
       </button>
