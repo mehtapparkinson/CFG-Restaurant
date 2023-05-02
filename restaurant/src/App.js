@@ -7,6 +7,7 @@ import Menu from "./Menu/menu";
 import About from "./About/about";
 import MenuItems from "./Menu-items/menuItems";
 import Reviews from "./Reviews/menuReviews"
+import Contact from "./Contact/Contact";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Reviews/>
       <MenuItems></MenuItems>
       <Reservations></Reservations>  
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );

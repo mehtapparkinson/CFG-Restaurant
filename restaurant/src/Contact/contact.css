@@ -1,0 +1,22 @@
+.contact-us-section{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #f5f5f5;;
+}
+
+.contact-us-section img {
+    width: 40%;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: start;
+    margin: auto;
+}
+
+.contact-text p {
+    padding: 10px;
+}
