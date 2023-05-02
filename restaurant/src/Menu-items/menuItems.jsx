@@ -11,7 +11,7 @@ function menuItems() {
           <div key={dish.id} className="menu-item">
             <img src={dish.image} alt={dish.name} className="menu-item-img" />
             <div className="menu-item-content">
-              <h2 className="menu-item-title">{dish.name}</h2>
+              <h3 className="menu-item-title">{dish.name}</h3>
               <p className="menu-item-description">{dish.description}</p>
               <p className="menu-item-price">{dish.price}€</p>
             </div>
